@@ -6,12 +6,8 @@
 ################################################################################
 
 
+import cv2	as cv
 
-import cv2 as cv
 
-img = cv.imread('peguin.jpg', cv.IMREAD_GRAYSCALE);
+img = cv.imread("peguin.jpg", cv.IMREAD_GRAYSCALE);
 cv.imshow("img", img);
-
-
-
-
